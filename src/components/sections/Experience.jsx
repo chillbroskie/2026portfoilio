@@ -17,8 +17,16 @@ export const Experience = () => {
 
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                         <p className="text-gray-300 mb-6">
-                            Graduate with an AAS: of Computer Programming,
-                            well versed with Java, Python, JavaScript, React, PHP and MySQL.
+                            I'm a Full-Stack Developer with a background in software development, operations, and team leadership. 
+                            I recently earned an Associate of Applied Science in Computer Technology – Programming, where I developed a strong foundation in software development, databases, object-oriented programming, and modern web technologies.
+
+                            Before transitioning into software development, I spent years working in logistics and operations leadership at UPS and FedEx Ground. 
+                            These experiences strengthened my problem-solving, communication, leadership, and teamwork skills while teaching me how to manage complex workflows, make decisions under pressure, and work effectively in fast-paced environments.
+
+                            I combine that professional experience with my passion for technology to build responsive, user-focused web applications. 
+                            I work with technologies including React, JavaScript, Python, Java, PHP, MySQL, C++, HTML, and CSS, and I enjoy continuously learning new tools and technologies to improve my development skills.
+
+                            Whether I'm building a website, developing an application, or solving a technical problem, I bring the same focus on efficiency, collaboration, and delivering a quality result.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -55,34 +63,90 @@ export const Experience = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">🎓 Education</h3>
-                            <ul className="list-disc list0inside text-gray-300 space-y-3">
+
+                            <ul className="list-disc list-inside text-gray-300 space-y-3">
                                 <li>
-                                    <strong>A.A.S in Computer Technology of Programming </strong> - Westmoreland County Community College(2024-2026)
+                                    <span className="font-semibold text-blue-400">
+                                        A.A.S. in Computer Technology – Programming
+                                    </span>
+                                    <br />
+                                    Westmoreland County Community College (2024–2026)
                                 </li>
+
                                 <li>
-                                    Relevant Coursework: Data Structures, Web Development, Mobile Development
+                                    <span className="font-semibold text-blue-400">
+                                        Relevant Coursework:
+                                    </span>
+                                    <br />
+                                    Data Structures, Web Development, Mobile Development
                                 </li>
                             </ul>
-                        </div>
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold mb-4">📈 Work Experience</h3>
-                            <div className="space-y-4 text-gray-300">
-                                <div>
-                                    <h4 className="font-semibold"> Dispatch and Operation Manager at UPS (2015-2022) </h4>
-                                    <p> Led high-volume distribution hub logistics by synchronizing yard control, trailer workflows, and package handler operations. 
-                                        Driven by a commitment to efficiency, I restructured communication channels between hub staff and drivers to eliminate transit delays, maximizing daily throughput while maintaining a strict culture of safety compliance and emergency response readiness. 
-                                        This role relied entirely on cohesive teamwork; by fostering cross-departmental collaboration, we ensured complex logistical data was translated into seamless, accident-free daily operations.
-                                    </p>
-                                </div>
-                                <div>
-                                    <h4 className="font-semibold"> Team Leader at FedEx Ground (2022-present) </h4>
-                                    <p>
-                                        Executed critical, time-sensitive physical logistics within a high-volume warehouse environment, ensuring the accurate sorting and loading of diverse shipments. 
-                                        This role required peak physical conditioning, sharp spatial awareness, and a steadfast dedication to safety protocols to prevent workplace hazards. 
-                                        Operating as a core member of a fast-moving terminal team, I relied on seamless, real-time collaboration with colleagues to maintain an efficient, uninterrupted supply chain pipeline under demanding deadlines.
-                                    </p>
-                                </div>
+
+                            <div className="mt-6">
+                                <h4 className="text-lg font-semibold text-blue-400 mb-3">
+                                    📜 Certifications
+                                </h4>
+
+                                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                                    <li>Responsive Web Design – freeCodeCamp</li>
+                                    <li>JavaScript Algorithms & Data Structures – freeCodeCamp</li>
+                                    <li>Currently pursuing additional React and Full-Stack certifications.</li>
+                                </ul>
                             </div>
+                        </div>
+                        <div className="space-y-6">
+
+                            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-2">💻 Freelance Developer</h3>
+                                <p className="text-blue-400 text-sm mb-4">
+                                    Self-Employed • 2025–Present
+                                </p>
+
+                                <p className="text-gray-300">
+                                    Develop personal and freelance web applications using React, JavaScript,
+                                    HTML, CSS, and Node.js. Work directly with clients to understand project
+                                    requirements, build responsive user interfaces, and deploy modern websites
+                                    while continuously expanding my full-stack development skills.
+                                </p>
+                            </div>
+
+                            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-2">🚚 FedEx Ground</h3>
+                                <p className="text-blue-400 text-sm mb-4">
+                                    Team Leader • 2022–Present
+                                </p>
+
+                                <p className="text-gray-300">
+                                    Executed critical, time-sensitive physical logistics within a
+                                    high-volume warehouse environment, ensuring the accurate sorting
+                                    and loading of diverse shipments. This role required peak physical
+                                    conditioning, sharp spatial awareness, and a steadfast dedication
+                                    to safety protocols to prevent workplace hazards. Operating as a
+                                    core member of a fast-moving terminal team, I relied on seamless,
+                                    real-time collaboration with colleagues to maintain an efficient,
+                                    uninterrupted supply chain pipeline under demanding deadlines.
+                                </p>
+                            </div>
+
+                            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
+                                <h3 className="text-xl font-bold mb-2">📈 UPS</h3>
+                                <p className="text-blue-400 text-sm mb-4">
+                                    Dispatch & Operations Manager • 2015–2022
+                                </p>
+
+                                <p className="text-gray-300">
+                                    Led high-volume distribution hub logistics by synchronizing yard control,
+                                    trailer workflows, and package handler operations. Driven by a commitment
+                                    to efficiency, I restructured communication channels between hub staff
+                                    and drivers to eliminate transit delays, maximizing daily throughput
+                                    while maintaining a strict culture of safety compliance and emergency
+                                    response readiness. This role relied entirely on cohesive teamwork;
+                                    by fostering cross-departmental collaboration, we ensured complex
+                                    logistical data was translated into seamless, accident-free daily operations.
+                                </p>
+                            </div>
+
+
                         </div>
                     </div>
 
